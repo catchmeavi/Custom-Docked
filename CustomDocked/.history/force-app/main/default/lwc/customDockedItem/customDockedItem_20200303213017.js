@@ -5,7 +5,7 @@ import {
 } from 'lwc';
 export default class customDockedItem extends LightningElement {
     @track minimze = false;
-    @track isOpenedDoced = true;
+    @track isCaseDoc = true;
     togglemini() {
         this.minimze = true;
         this.template.querySelector('.open_model').classList.remove('slds-is-open');
@@ -19,7 +19,7 @@ export default class customDockedItem extends LightningElement {
     }
 
     closeDock() {
-        this.isOpenedDoced = false;
+        this.isCaseDoc = false;
     }
 
 

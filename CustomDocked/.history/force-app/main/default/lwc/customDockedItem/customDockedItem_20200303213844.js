@@ -19,7 +19,7 @@ export default class customDockedItem extends LightningElement {
     }
 
     closeDock() {
-        this.isOpenedDoced = false;
+        this.isCaseDoc = false;
     }
 
 
